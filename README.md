@@ -1,4 +1,4 @@
-⚙️ ZINALDO — Portfolio Web Developer & Designer
+⚙️ ZINALDO —Web Developer & Designer
 Portfolio steampunk immersif — HTML, CSS, JavaScript pur (sans framework ni dépendance).
 
 📁 Structure
