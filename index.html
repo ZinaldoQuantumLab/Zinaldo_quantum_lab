@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZINALDO — Créateur digital & Designer web</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── CURSEUR PERSONNALISÉ ── -->
+  <div class="cursor"      id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ── FOND D'ENGRENAGES── -->
+  <div class="gear-bg">
+    <svg class="gear-svg" style="top:10%;left:5%;width:200px;animation-duration:30s;"
+         viewBox="0 0 100 100" fill="rgb(180, 125, 24)">
+      <path d="M43,1 L57,1 L60,15 C63,16 65,17 68,19 L81,14 L91,24 L86,37
+               C88,40 89,43 90,46 L104,49 L104,51 L90,54 C89,57 88,60 86,63
+               L91,76 L81,86 L68,81 C65,83 63,84 60,85 L57,99 L43,99 L40,85
+               C37,84 35,83 32,81 L19,86 L9,76 L14,63 C12,60 11,57 10,54
+               L-4,51 L-4,49 L10,46 C11,43 12,40 14,37 L9,24 L19,14 L32,19
+               C35,17 37,16 40,15 Z M50,35 A15,15 0 1,1 50,65 A15,15 0 1,1 50,35"/>
+    </svg>
+    <svg class="gear-svg"
+         style="top:60%;right:8%;width:300px;animation-duration:50s;animation-direction:reverse;"
+         viewBox="0 0 100 100" fill="rgba(192,22,14,1)">
+      <path d="M43,1 L57,1 L60,15 C63,16 65,17 68,19 L81,14 L91,24 L86,37
+               C88,40 89,43 90,46 L104,49 L104,51 L90,54 C89,57 88,60 86,63
+               L91,76 L81,86 L68,81 C65,83 63,84 60,85 L57,99 L43,99 L40,85
+               C37,84 35,83 32,81 L19,86 L9,76 L14,63 C12,60 11,57 10,54
+               L-4,51 L-4,49 L10,46 C11,43 12,40 14,37 L9,24 L19,14 L32,19
+               C35,17 37,16 40,15 Z M50,35 A15,15 0 1,1 50,65 A15,15 0 1,1 50,35"/>
+    </svg>
+    <svg class="gear-svg" style="top:30%;right:20%;width:120px;animation-duration:18s;"
+         viewBox="0 0 100 100" fill="rgba(201,146,42,1)">
+      <path d="M43,1 L57,1 L60,15 C63,16 65,17 68,19 L81,14 L91,24 L86,37
+               C88,40 89,43 90,46 L104,49 L104,51 L90,54 C89,57 88,60 86,63
+               L91,76 L81,86 L68,81 C65,83 63,84 60,85 L57,99 L43,99 L40,85
+               C37,84 35,83 32,81 L19,86 L9,76 L14,63 C12,60 11,57 10,54
+               L-4,51 L-4,49 L10,46 C11,43 12,40 14,37 L9,24 L19,14 L32,19
+               C35,17 37,16 40,15 Z M50,35 A15,15 0 1,1 50,65 A15,15 0 1,1 50,35"/>
+    </svg>
+  </div>
+
+  <!-- ── NAVIGATION ── -->
+  <nav>
+    <div class="nav-logo">ZIN<span>A</span>LDO</div>
+    <ul class="nav-links">
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#process">Processus</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-content">
+
+      <div class="hero-text">
+        <div class="hero-tag">⚙ Ouvert aux opportunités professionnelles</div>
+        <h1 class="hero-title">
+          ZINALDO
+          <span class="red-text">Tech  &amp; Design </span>
+        </h1>
+        <p class="hero-sub"> Développement web  &amp; Design visuel </p>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">10<span>+</span></div>
+            <div class="stat-label">Années d'exp.</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">50<span>+</span></div>
+            <div class="stat-label">Projets livrés</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">40<span>+</span></div>
+            <div class="stat-label">Clients satisfaits</div>
+          </div>
+        </div>
+
+        <p class="hero-desc">
+          Créateur du web & architecte visuel — je fusionne l'art du code avec une esthétique sans compromis pour créer des expériences digitales mémorables.
+        </p>
+
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">⚙ Voir mes projets</a>
+          <a href="#contact"  class="btn-outline">✉ Me contacter</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="skull-container">
+          <div class="skull-glow"></div>
+          <div class="skull-ring"></div>
+          <div class="skull-ring"></div>
+          <div class="skull-ring"></div>
+          <img class="skull-img" src="logo.png" alt="Zinaldo quantum Logo">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Compétences ── -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Arsenal Technique</div>
+      <h2 class="section-title">Compétences &amp; Technologies</h2>
+      <div class="steampunk-divider" style="margin-top:16px;">
+        <div class="divider-line"></div>
+        <svg class="divider-gear" viewBox="0 0 60 60" fill="none" stroke="rgba(201,146,42,0.6)" stroke-width="2">
+          <circle cx="30" cy="30" r="10"/><circle cx="30" cy="30" r="18"/>
+          <line x1="30" y1="0"  x2="30" y2="12"/><line x1="30" y1="48" x2="30" y2="60"/>
+          <line x1="0"  y1="30" x2="12" y2="30"/><line x1="48" y1="30" x2="60" y2="30"/>
+          <line x1="8"  y1="8"  x2="17" y2="17"/><line x1="43" y1="43" x2="52" y2="52"/>
+          <line x1="52" y1="8"  x2="43" y2="17"/><line x1="17" y1="43" x2="8"  y2="52"/>
+        </svg>
+        <div class="divider-line right"></div>
+      </div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <span class="skill-icon">🌐</span>
+        <div class="skill-name">Frontend</div>
+        <div class="skill-desc">HTML5, CSS3, JavaScript ES6+, animations avancées et interfaces pixel-perfect.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.95"></div></div>
+        <div class="skill-pct">95%</div>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">⚛</span>
+        <div class="skill-name">React / Vue</div>
+        <div class="skill-desc">Composants réutilisables, gestion d'état, hooks personnalisés et applications SPA performantes.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.88"></div></div>
+        <div class="skill-pct">88%</div>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">🎨</span>
+        <div class="skill-name">UI/UX Design</div>
+        <div class="skill-desc">Figma, prototypage, systèmes de design, identités visuelles et direction artistique.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.92"></div></div>
+        <div class="skill-pct">92%</div>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">🖥</span>
+        <div class="skill-name">Backend</div>
+        <div class="skill-desc">Node.js, Express, REST API, bases de données SQL/NoSQL, architectures scalables, et PHP (Laravel, Symfony).</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.78"></div></div>
+        <div class="skill-pct">78%</div>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">📱</span>
+        <div class="skill-name">Mobile First</div>
+        <div class="skill-desc">Design responsive, PWA, optimisation performance et expériences multi-device.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.90"></div></div>
+        <div class="skill-pct">90%</div>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">⚡</span>
+        <div class="skill-name">Performance</div>
+        <div class="skill-desc">Core Web Vitals, lazy loading, code splitting, CDN et optimisations avancées.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.85"></div></div>
+        <div class="skill-pct">85%</div>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">🎨</span>
+        <div class="skill-name">Design Graphique</div>
+        <div class="skill-desc">Adobe Photoshop, Illustrator, InDesign, Photopea et Canva pour logos, affiches et visuels créatifs.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.92"></div></div>
+        <div class="skill-pct">92%</div>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">🤖</span>
+        <div class="skill-name">IA & Prompt Engineering</div>
+        <div class="skill-desc">Conception et optimisation de prompts, intégration IA dans design et développement.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.88"></div></div>
+        <div class="skill-pct">88%</div>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">📊</span>
+        <div class="skill-name">Data & Analyse</div>
+        <div class="skill-desc">Excel avancé, automatisation, visualisation de données et Google Sheets.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.75"></div></div>
+        <div class="skill-pct">75%</div>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">🤝</span>
+        <div class="skill-name">Collaboration</div>
+        <div class="skill-desc">Gestion de projet Agile/Scrum, Git/GitHub, Trello, Notion et travail en équipe.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.80"></div></div>
+        <div class="skill-pct">80%</div>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">🔒</span>
+        <div class="skill-name">Sécurité Web</div>
+        <div class="skill-desc">HTTPS, gestion des sessions, protection contre XSS/CSRF, bonnes pratiques de sécurité et RGPD.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.77"></div></div>
+        <div class="skill-pct">77%</div>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">♿</span>
+        <div class="skill-name">Accessibilité</div>
+        <div class="skill-desc">WCAG, ARIA, design inclusif et respect des standards web pour des expériences accessibles à tous.</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-pct="0.82"></div></div>
+        <div class="skill-pct">82%</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Réalisations</div>
+      <h2 class="section-title">Projets Récents</h2>
+      <div class="steampunk-divider" style="margin-top:16px;">
+        <div class="divider-line"></div>
+        <svg class="divider-gear" viewBox="0 0 60 60" fill="none" stroke="rgba(201,146,42,0.6)" stroke-width="2" style="animation-direction:reverse;">
+          <circle cx="30" cy="30" r="10"/><circle cx="30" cy="30" r="18"/>
+          <line x1="30" y1="0"  x2="30" y2="12"/><line x1="30" y1="48" x2="30" y2="60"/>
+          <line x1="0"  y1="30" x2="12" y2="30"/><line x1="48" y1="30" x2="60" y2="30"/>
+          <line x1="8"  y1="8"  x2="17" y2="17"/><line x1="43" y1="43" x2="52" y2="52"/>
+          <line x1="52" y1="8"  x2="43" y2="17"/><line x1="17" y1="43" x2="8"  y2="52"/>
+        </svg>
+        <div class="divider-line right"></div>
+      </div>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- PROJET 1 — E-Commerce Full Stack -->
+      <div class="project-card reveal"> B
+        <div class="project-thumb">
+          <img src="ecommerce.png" alt="Application E-Commerce Full Stack" class="project-image">
+          <div class="project-overlay">
+            <a href="https://github.com/ZinaldoQuantumLab" target="_blank" rel="noopener noreferrer" class="overlay-btn">GitHub</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MongoDB</span></div>
+          <div class="project-name">Application E‑commerce Full Stack</div>
+          <div class="project-desc">Application responsive avec panier, paiement sécurisé, API REST et MongoDB. Stack : React, Vite, Node.js, Context API.</div>
+        </div>
+      </div>
+
+      <!-- PROJET 2 — Portfolio Créatif -->
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="creatif.png" alt="Portfolio Créatif avec animations GSAP" class="creatif-image">
+          <div class="project-overlay">
+            <a href="https://github.com/ZinaldoQuantumLab" target="_blank" rel="noopener noreferrer" class="overlay-btn">GitHub</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="tag">HTML/CSS</span><span class="tag">GSAP</span><span class="tag">Design</span></div>
+          <div class="project-name">Portfolio Créatif</div>
+          <div class="project-desc">Site portfolio immersif avec animations GSAP, transitions fluides et identité visuelle forte.</div>
+        </div>
+      </div>
+
+      <!-- PROJET 3 — App Mobile PWA -->
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="mobile-pwa.png" alt="Application Mobile PWA" class="project-image">
+          <div class="project-overlay">
+            <a href="https://github.com/ZinaldoQuantumLab" target="_blank" rel="noopener noreferrer" class="overlay-btn">GitHub</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="tag">PWA</span><span class="tag">React</span><span class="tag">Firebase</span></div>
+          <div class="project-name">App Mobile PWA</div>
+          <div class="project-desc">Application web progressive avec mode hors-ligne, notifications push et performances natives.</div>
+        </div>
+      </div>
+
+      <!-- PROJET 4 — Corporate Website -->
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="corporate.png" alt="Corporate Website Next.js" class="project-image">
+          <div class="project-overlay">
+            <a href="https://github.com/ZinaldoQuantumLab" target="_blank" rel="noopener noreferrer" class="overlay-btn">GitHub</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="tag">Next.js</span><span class="tag">CMS</span><span class="tag">SEO</span></div>
+          <div class="project-name">Corporate Website</div>
+          <div class="project-desc">Site vitrine corporate avec CMS headless, score SEO optimal et temps de chargement record.</div>
+        </div>
+      </div>
+
+      <!-- PROJET 5 — Expérience Interactive WebGL -->
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="interactive.png" alt="Expérience Interactive WebGL" class="project-image">
+          <div class="project-overlay">
+            <a href="https://github.com/ZinaldoQuantumLab" target="_blank" rel="noopener noreferrer" class="overlay-btn">GitHub</a>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="tag">Canvas</span><span class="tag">WebGL</span><span class="tag">JS</span></div>
+          <div class="project-name">Expérience Interactive</div>
+          <div class="project-desc">Expérience web immersive en WebGL avec particules, effets 3D et interactions souris avancées.</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── PROCESS ── -->
+  <section id="process">
+    <div class="section-header reveal">
+      <div class="section-eyebrow">Méthodologie</div>
+      <h2 class="section-title">Mon Processus</h2>
+      <div class="steampunk-divider" style="margin-top:16px;">
+        <div class="divider-line"></div>
+        <svg class="divider-gear" viewBox="0 0 60 60" fill="none" stroke="rgba(201,146,42,0.6)" stroke-width="2">
+          <circle cx="30" cy="30" r="10"/><circle cx="30" cy="30" r="18"/>
+          <line x1="30" y1="0"  x2="30" y2="12"/><line x1="30" y1="48" x2="30" y2="60"/>
+          <line x1="0"  y1="30" x2="12" y2="30"/><line x1="48" y1="30" x2="60" y2="30"/>
+          <line x1="8"  y1="8"  x2="17" y2="17"/><line x1="43" y1="43" x2="52" y2="52"/>
+          <line x1="52" y1="8"  x2="43" y2="17"/><line x1="17" y1="43" x2="8"  y2="52"/>
+        </svg>
+        <div class="divider-line right"></div>
+      </div>
+    </div>
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="step-num">01</div>
+        <div class="step-title">Exploration</div>
+        <div class="step-desc">Analyse des besoins, définition des objectifs et étude de la cible pour poser des bases solides.</div>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-num">02</div>
+        <div class="step-title">Conception</div>
+        <div class="step-desc">Création de maquettes filaires, planches d'ambiance et prototypes haute-fidélité pour tester et valider l'expérience utilisateur avant le développement.</div>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-num">03</div>
+        <div class="step-title">Construction</div>
+        <div class="step-desc">Développement propre, code commenté et revues régulières pour garantir la qualité du produit final.</div>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-num">04</div>
+        <div class="step-title">Lancement</div>
+        <div class="step-desc">Tests multi-appareils, optimisation des performances et déploiement avec suivi et surveillance continue.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="contact-wrapper">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Collaboration</div>
+        <h2 class="section-title">Travaillons Ensemble</h2>
+      </div>
+      <div class="reveal">
+        <p style="font-size:1.05rem;color:rgba(209, 236, 28, 0.903);line-height:1.8;margin-bottom:20px;">
+          Des idées à concrétiser ? Je vous accompagne dans la réalisation de projets digitaux innovants, alliant efficacité, méthode et technologies modernes.
+        </p>
+        <a href="mailto:zinaldoquantumlab@gmail.com" class="contact-email">zinaldoquantumlab@gmail.com</a>
+        <div class="social-row">
+          <a href="https://github.com/ZinaldoQuantumLab" class="social-btn" title="GitHub" target="_blank" rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57
+                       0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695
+                       -.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99
+                       .105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225
+                       -.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405
+                       c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225
+                       0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3
+                       0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/zinaldomicke/" class="social-btn" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136
+                       2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37
+                       4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063
+                       2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542
+                       C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0
+                       22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a href="https://web.facebook.com/zinaldoquantumlaboratory" title="Facebook" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.464.099 2.794.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.407 24 24 23.407 24 22.676V1.325C24 .593 23.407 0 22.675 0z"/>
+            </svg>
+          </a>
+          <a href="https://www.behance.net/zinaldoquantum" class="social-btn" title="Behance" target="_blank" rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M7.803 5.731c.589 0 1.119.051 1.605.155.483.103.895.273 1.243.508.343.235.611.547
+                       .804.938.188.387.286.865.286 1.437 0 .619-.14 1.138-.421 1.559-.28.421-.689.765-1.227
+                       1.033.741.212 1.301.589 1.676 1.127.374.535.562 1.179.562 1.935 0 .617-.116 1.148-.35
+                       1.592-.232.443-.554.804-.966 1.086-.409.281-.895.487-1.455.616-.561.13-1.151.195-1.769
+                       .195H0V5.731h7.803zm-.351 4.972c.483 0 .878-.114 1.189-.344.308-.229.463-.588.463-1.076
+                       0-.271-.05-.494-.149-.669-.099-.176-.231-.314-.399-.415-.168-.1-.359-.171-.578-.214
+                       -.219-.043-.444-.064-.677-.064H3.204v2.782h4.248zm.151 5.239c.271 0 .521-.027.752-.081
+                       .231-.056.433-.144.604-.267.173-.124.309-.288.409-.494.1-.207.15-.462.15-.766
+                       0-.604-.168-1.038-.504-1.298-.336-.261-.783-.392-1.338-.392H3.204v3.298h4.399zm9.896-1.061
+                       c.337.327.822.491 1.453.491.452 0 .843-.113 1.173-.34.329-.226.532-.468.604-.72h2.429
+                       c-.389 1.201-1.003 2.06-1.843 2.574-.84.516-1.852.773-3.038.773-.824 0-1.566-.132
+                       -2.229-.396-.661-.264-1.225-.636-1.69-1.117-.462-.481-.82-1.059-1.073-1.734-.25-.676
+                       -.376-1.414-.376-2.215 0-.775.129-1.502.387-2.179.258-.678.623-1.265 1.095-1.759
+                       .469-.495 1.031-.882 1.683-1.164.649-.281 1.373-.421 2.166-.421.883 0 1.662.171
+                       2.33.515.671.344 1.228.808 1.671 1.393.443.585.763 1.257.957 2.018.194.762.262 1.556
+                       .201 2.388h-7.297c.044.743.281 1.312.617 1.893zm2.563-5.021c-.271-.298-.701-.447
+                       -1.293-.447-.374 0-.686.062-.934.185-.246.122-.448.273-.601.453-.154.18-.264.376
+                       -.333.585-.069.209-.109.408-.122.596h3.748c-.083-.626-.294-1.073-.465-1.372zm-5.428
+                       -5.895h5.803v1.422h-5.803V3.965z"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/261356710185" class="social-btn" title="WhatsApp" target="_blank" rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.52 3.48a11.83 11.83 0 0 0-16.72 16.72l-1.48 5.44 5.56-1.44a11.83 11.83 0 0 0 16.72-16.72zm-9.52 17c-1.88 0-3.74-.5-5.36-1.44l-.38-.22-3.3.86.88-3.22-.25-.4a10.14 10.14 0 1 1 8.4 4.22zm5.02-6.56c-.28-.14-1.64-.81-1.9-.9-.26-.09-.45-.14-.64.14-.18.28-.72.9-.88 1.08-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.38-.83-.74-1.38-1.64-1.54-1.92-.16-.28-.02-.43.12-.57.12-.12.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.34-.02-.48-.07-.14-.64-1.54-.88-2.12-.23-.56-.47-.48-.64-.49l-.54-.01c-.18 0-.46.07-.7.34-.24.28-.92.9-.92 2.2s.94 2.55 1.07 2.73c.14.18 1.88 2.88 4.56 4.04.64.28 1.14.45 1.53.58.64.21 1.22.18 1.68.11.51-.08 1.64-.67 1.88-1.32.23-.64.23-1.19.16-1.31-.07-.12-.25-.18-.53-.32z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-logo">ZINALDO</div>
+    <div class="footer-copy">© 2026 — Développé avec idées et passion</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
